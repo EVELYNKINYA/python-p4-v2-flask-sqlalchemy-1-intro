@@ -51,6 +51,7 @@ the database schema to a newer or older version. **Alembic:** is a lightweight
 database migration tool for SQLAlchemy. **Flask-Migrate** is a Flask extension
 that handles database migrations using Alembic.
 
+   
 In this lesson, we will use Flask-SQLAlchemy to configure a database connection
 and to define a model for storing data about pets. We will use Flask-Migrate to
 perform an initial migration to create a database containing the pets table.
